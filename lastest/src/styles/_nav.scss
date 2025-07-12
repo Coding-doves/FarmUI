@@ -1,0 +1,116 @@
+.nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    gap: 26px;
+    font-size: 14px;
+    font-weight: 800px;
+    border-radius: 20px;
+    padding-right: 180px;
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        color: #FFFFFF;
+        li::marker, li:active{
+            color: #EDDD5E;
+        }
+        .nav-Link{
+            color: #FFFFFF;
+            text-decoration: none;
+            &:hover{
+                color: #EDDD5E;
+            }
+            &.active{
+                color: #EDDD5E;
+            }
+        }
+    }
+    .left-nav li:first-child,
+    .right-nav li{
+        list-style: none;
+    }
+    .call-us{
+        display: flex;
+        gap: 5px;
+    }
+    .call-us img{
+        height: 26px;
+        width: 26px;
+    }
+    .search{
+        display: flex;
+        span{
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background: #FFFFFF;
+            border-radius: 25px;
+            margin-right: 5px;
+            text-align: center;
+            line-height: 38px;
+            img{
+                height: 16px;
+                width: 16px;
+            }
+        }
+    }
+}
+.small-box{
+    position: absolute;
+    height: 60px;
+    width: 153.34px;
+    right: 0;
+    top: 0;
+    background: #F8F7F0;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    .inner{
+        height: 40px;
+        width: 133.34px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: .1rem;
+        background: #EDDD5E;
+        border-radius: 30px;
+        position: relative;
+        left: 20px;
+        right: 0px;
+        top: 5px;
+        span{
+            font-size: .9rem;
+            font-weight: 400;
+            top: 20%;
+        }
+        span img{
+            height: 21px;
+            width: 21.5px;
+            padding-left: 4px;
+        }
+    }
+}
+.vectors{
+    position: absolute;
+    display: block;
+    height: 40px;
+    width: 40px;
+    border: 8px solid transparent;
+    border-top-color: #F8F7F0;
+    border-right-color: #F8F7F0;
+    border-top-right-radius: 25px;
+}
+.v1{
+    right: -7px;
+    top: 53px;
+}      
+.v2{
+    right: 146px;
+    top: -7px;
+}

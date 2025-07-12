@@ -1,0 +1,17 @@
+@use './nav' as *;
+@use './footer' as *;
+@use './section2_3' as *;
+@use './home' as *;
+@use './about' as *;
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 5px;
+  background: #F8F7F0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
