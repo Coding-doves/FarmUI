@@ -8,7 +8,7 @@ const Section2_3 = () => {
     return (
         <div>
             <section className="section2">
-                <div className="left">
+                <div className="left_s2">
                     <div className="vectors v1"></div>
                     <div className="vectors v2"></div>
 
@@ -16,8 +16,8 @@ const Section2_3 = () => {
                         <img src={section2} alt="lady pluck's fruit" />
                     </div>
 
-                    <div className="small-box">
-                        <div className="inner">
+                    <div className="small-box2">
+                        <div className="inner2">
                             <div>
                                 <span>*</span>
                                 <span><h1>435</h1></span>
