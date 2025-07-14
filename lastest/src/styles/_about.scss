@@ -248,7 +248,7 @@ section{
 }
 
 .section6a{
-    height: 499.78px;
+    height: 430.78px;
     padding: 10px;
     color: #404A3D;
     .div1{
@@ -314,7 +314,7 @@ section{
             border-radius: 50px;
             background-color: #EDDD5E;
             margin-right: 20px;
-            padding: 15px;
+            padding: 10px;
             img{
                 height: 35px;
                 width: 35px;
@@ -385,9 +385,8 @@ section{
             .stars{
                 display: flex;
                 justify-content: left;
-                img{
-                    height: 15px;
-                    width: 15px;
+                path{
+                    fill: #EDDD5E;
                 }
             }
             div:nth-child(2){
@@ -432,8 +431,8 @@ section{
                 padding: 2rem;
                 span{
                     position: absolute;
-                    height: 30px;
-                    width: 30px;
+                    height: 40px;
+                    width: 40px;
                     display: block;
                     top: 30%;
                     right: 30%;

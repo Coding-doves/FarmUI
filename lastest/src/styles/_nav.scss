@@ -39,10 +39,9 @@
     .call-us{
         display: flex;
         gap: 5px;
-    }
-    .call-us img{
-        height: 26px;
-        width: 26px;
+        .f1 path{
+            fill: #EDDD5E;
+        }
     }
     .search{
         display: flex;

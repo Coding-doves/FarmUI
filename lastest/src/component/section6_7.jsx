@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSunPlantWilt } from '@fortawesome/free-solid-svg-icons';
+
 import about_banner2 from '../assets/about_banner2.png';
 import leaf from '../assets/leaf.png';
 import arrow_up_right from '../assets/arrow_up_right.png';
@@ -73,7 +76,9 @@ const Section6_7 = () => {
 
             <section className="section7a" style={{ background: `url(${about_banner2}) no-repeat bottom` }}>
                 <div>
-                <span><img src={leaf} alt="handand plant icon" /></span>
+                <span>
+                    <FontAwesomeIcon icon={faSunPlantWilt} size="2x" />
+                </span>
                 <h3>We’re popular leader in <br/>
                 agriculture market globally</h3>
                 </div>

@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
 
-import phonecall from '../assets/phone-call.png';
 import search from '../assets/search.png';
 import arrow_up_right from '../assets/arrow_up_right.png';
 
@@ -24,7 +25,7 @@ function Nav() {
             <div className='right-nav'>
                 <ul>
                     <li className='call-us'>
-                        <img src={phonecall} alt="phonecall" />
+                        <FontAwesomeIcon icon={ faPhoneVolume} size="2x" className='f1' />
                         <small>
                             Call us Now<br/>
                             + 1(212) 255-511

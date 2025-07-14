@@ -1,4 +1,5 @@
-import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSunPlantWilt, faTractor, faWheatAwn, faSeedling, faPlantWilt, faCarrot, faCalendarAlt, faPerson } from '@fortawesome/free-solid-svg-icons';
 
 import Footer from '../component/footer';
 import Nav from '../component/nav';
@@ -10,6 +11,24 @@ import bg2 from '../assets/bg2.png';
 import leaf from '../assets/leaf.png';
 import section2 from '../assets/section2.jpg';
 import arrow_up_right from '../assets/arrow_up_right.png';
+import agric1 from '../assets/agric1.png';
+import agric2 from '../assets/agric2.png';
+import agric3 from '../assets/agric3.png';
+import corn from '../assets/corn.png';
+import image1 from '../assets/image1.jpg';
+import image2 from '../assets/image2.jpg';
+import image3 from '../assets/image3.jpg';
+import rice from '../assets/rice.png';
+import farm from '../assets/farm.png';
+import fresh from '../assets/fresh.png';
+import food from '../assets/food.png';
+import eco from '../assets/eco.png';
+import tractor from '../assets/tractor.png';
+import cow from '../assets/cow.jpg';
+import pluck from '../assets/pluck.jpg';
+import pluck2 from '../assets/pluck2.jpg';
+import pluck3 from '../assets/pluck3.jpg';
+import tractor2 from '../assets/tractor2.jpg';
 
 
 const Home = () => {
@@ -17,6 +36,18 @@ const Home = () => {
         <div>
             <header className='banner' style={{ background: `url(${banner1}) no-repeat center/cover` }}>
                 <Nav/>
+                
+                <div className='ban1'>
+                    <span>BELIEVE IN QUALITY!</span>
+                    <span>
+                        <h1>Quality Trust:</h1>
+                        <h1>Direct to the Farm</h1>
+                    </span>
+                    <span>
+                        <p>We all need a little space to grow. Give yourself the space you need to find your inner you.</p>
+                        <button>Contact Us <img src={arrow_up_right} alt="pointer" /></button>
+                    </span>
+                </div>
             </header>
 
             <section className="section1">
@@ -26,7 +57,7 @@ const Home = () => {
 
                     <div className="hbig-box">
                         <span className="icon-box">
-                            <span></span>
+                            <span><FontAwesomeIcon icon={ faTractor} size="2x" /></span>
                             <h2>Professional Farmers</h2>
                         </span>
                         <p>Nullam porta enim vel tellus commodo,
@@ -46,7 +77,7 @@ const Home = () => {
 
                     <div className="hbig-box">
                         <span className="icon-box">
-                            <span></span>
+                            <span><FontAwesomeIcon icon={faWheatAwn} size="2x" /></span>
                             <h2>Fresh Vegetables</h2>
                         </span>
                         <p>Nullam porta enim vel tellus commodo,
@@ -66,7 +97,7 @@ const Home = () => {
 
                     <div className="hbig-box">
                         <span className="icon-box">
-                            <span></span>
+                            <span><FontAwesomeIcon icon={faSunPlantWilt} size="2x" /></span>
                             <h2>Agriculture Products</h2>
                         </span>
                         <p>Nullam porta enim vel tellus commodo,
@@ -86,7 +117,7 @@ const Home = () => {
 
                     <div className="hbig-box">
                         <span className="icon-box">
-                            <span></span>
+                            <span><FontAwesomeIcon icon={faSunPlantWilt} size="2x" /></span>
                             <h2>100% Guaranteed</h2>
                         </span>
                         <p>Nullam porta enim vel tellus commodo,
@@ -121,7 +152,7 @@ const Home = () => {
                         <div className="vectors4"></div>
 
                         <div className="big-box4">
-                            <img src={section2} alt="lady pluck's fruit" />
+                            <img src={agric1} alt="Truck on farm" />
 
                             <div>
                                 <span className="card4-tips">
@@ -146,7 +177,7 @@ const Home = () => {
                         <div className="vectors4"></div>
 
                         <div className="big-box4">
-                            <img src={section2} alt="lady pluck's fruit" />
+                            <img src={agric2} alt="Truck on farm" />
 
                             <div>
                                 <span className="card4-tips">
@@ -171,7 +202,7 @@ const Home = () => {
                         <div className="vectors4"></div>
 
                         <div className="big-box4">
-                            <img src={section2} alt="lady pluck's fruit" />
+                            <img src={agric3} alt="Indoor farm" />
 
                             <div>
                                 <span className="card4-tips">
@@ -205,15 +236,16 @@ const Home = () => {
                 <div className='s12-div'>
                     <div className='s12-inner-div'>
                         <div className="icon-box12">
-                            <span></span>
+                            <span><FontAwesomeIcon icon={faSeedling} size="2x" /></span>
                             <span>
                                 <h3>Agriculture Products</h3>
                                 <p>Nullam porta enim vel tellus commodo,
                                     eget laoreet odio ultrices.</p>
                             </span>
                         </div>
+
                         <div className="icon-box12">
-                            <span></span>
+                            <span><FontAwesomeIcon icon={faPlantWilt} size="2x" /></span>
                             <span>
                                 <h3>Quality Products</h3>
                                 <p>Nullam porta enim vel tellus commodo,
@@ -223,12 +255,12 @@ const Home = () => {
                     </div>
 
                     <div className="corn">
-                        <img src={section2} alt="corn" />
+                        <img src={corn} alt="corn" />
                     </div>
                     
                     <div className='s12-inner-div'>
                         <div className="icon-box12">
-                            <span></span>
+                            <span><FontAwesomeIcon icon={faCarrot} size="2x" /></span>
                             <span>
                                 <h3>Fresh Vegetables</h3>
                                 <p>Nullam porta enim vel tellus commodo,
@@ -236,7 +268,7 @@ const Home = () => {
                             </span>
                         </div>
                         <div className="icon-box12">
-                            <span></span>
+                            <span><FontAwesomeIcon icon={faWheatAwn} size="2x" /></span>
                             <span>
                                 <h3>Pure & Organic</h3>
                                 <p>Nullam porta enim vel tellus commodo,
@@ -248,22 +280,24 @@ const Home = () => {
             </section>
             
             <section className="section5">
-                <img src={banner1} alt="" />
-                <img src={banner1} alt="" />
+                <img src={image1} alt="" />
+                <img src={pluck} alt="" />
+                <img src={pluck2} alt="" />
+                <img src={image2} alt="" />
             </section>
                         
             <Testimonial />
 
             <section className="section7">
-                <img src={banner1} alt="" />
-                <img src={banner1} alt="" />
-                <img src={banner1} alt="" />
-                <img src={banner1} alt="" />
-                <img src={banner1} alt="" />
-                <img src={banner1} alt="" />
+                <img src={rice} alt="" />
+                <img src={farm} alt="" />
+                <img src={fresh} alt="" />
+                <img src={food} alt="" />
+                <img src={eco} alt="" />
+                <img src={tractor} alt="" />
             </section>
 
-            <section className="section8" style={{ background: `url(${banner1}) no-repeat left/cover` }}>
+            <section className="section8" style={{ background: `url(${image3}) no-repeat left/contain` }}>
                 <div className='s8'>
                     <span className='tiny'>
                         <img src={leaf} alt="leaf" />
@@ -301,7 +335,7 @@ const Home = () => {
                         <div className='card-top'>
                             <span className='tiny2'>FOOD CROPS</span>
                             <span className="card-top-img">
-                                <img src={section2} alt="" />
+                                <img src={pluck3} alt="" />
                             </span>
                             <span className="inner11">
                                 <img src={arrow_up_right} alt="pointer" />
@@ -309,8 +343,8 @@ const Home = () => {
                         </div>
                         <div className="card-details">
                             <div className="info">
-                                <span><img src={leaf} alt="icon" /> March 26 2024</span>
-                                <span><img src={leaf} alt="icon" /> ADMIN</span>
+                                <span><FontAwesomeIcon icon={ faCalendarAlt} /> March 26 2024</span>
+                                <span><FontAwesomeIcon icon={ faPerson} /> ADMIN</span>
                             </div>
                             <h3>What technology is used in veryical farming?</h3>
                         </div>
@@ -320,7 +354,7 @@ const Home = () => {
                         <div className='card-top'>
                             <span className='tiny2'>ORGANIC FARM</span>
                             <span className="card-top-img">
-                                <img src={section2} alt="" />
+                                <img src={tractor2} alt="" />
                             </span>
                             <span className="inner11">
                                 <img src={arrow_up_right} alt="pointer" />
@@ -328,8 +362,8 @@ const Home = () => {
                         </div>
                         <div className="card-details">
                             <div className="info">
-                                <span><img src={leaf} alt="icon" /> March 26 2024</span>
-                                <span><img src={leaf} alt="icon" /> ADMIN</span>
+                                <span><FontAwesomeIcon icon={ faCalendarAlt} /> March 26 2024</span>
+                                <span><FontAwesomeIcon icon={ faPerson} /> ADMIN</span>
                             </div>
                             <h3>Which type of farming is more
                                 prevalent today?</h3>
@@ -340,7 +374,7 @@ const Home = () => {
                         <div className='card-top'>
                             <span className='tiny2'>FARMING TIPS</span>
                             <span className="card-top-img">
-                                <img src={section2} alt="" />
+                                <img src={cow} alt="" />
                             </span>
                             <span className="inner11">
                                 <img src={arrow_up_right} alt="pointer" />
@@ -348,8 +382,8 @@ const Home = () => {
                         </div>
                         <div className="card-details">
                             <div className="info">
-                                <span><img src={leaf} alt="icon" /> March 26 2024</span>
-                                <span><img src={leaf} alt="icon" /> ADMIN</span>
+                                <span><FontAwesomeIcon icon={ faCalendarAlt} /> March 26 2024</span>
+                                <span><FontAwesomeIcon icon={ faPerson} /> ADMIN</span>
                             </div>
                             <h3>The Farmers Sentiment Darkens
 Hopes                           Fade</h3>

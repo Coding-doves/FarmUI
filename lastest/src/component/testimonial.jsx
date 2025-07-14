@@ -1,5 +1,10 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {  faQuoteLeftAlt, faStar } from '@fortawesome/free-solid-svg-icons';
+
 import leaf from '../assets/leaf.png';
-import arrow_up_right from '../assets/arrow_up_right.png';
+import person1 from '../assets/person1.jpg';
+import person2 from '../assets/person2.jpg';
+import person3 from '../assets/person3.jpg';
 import section2 from '../assets/section2.jpg';
 
 const Testimonial = () => {
@@ -20,11 +25,11 @@ const Testimonial = () => {
             <div className='cards2'>
                 <div className="card">
                     <div className="stars">
-                        <img src={leaf} alt="star" />
-                        <img src={leaf} alt="star" />
-                        <img src={leaf} alt="star" />
-                        <img src={leaf} alt="star" />
-                        <img src={leaf} alt="star" />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
                     </div>
                     <div>
                         <p>
@@ -35,14 +40,14 @@ const Testimonial = () => {
                         </p>
                     </div>
                     <div>
-                        <span className='image'><img src={section2} alt="lady pluck's fruit" /></span>
+                        <span className='image'><img src={person2} alt="person" /></span>
                         <span className='details'>
-                            <h3>Henry Carol</h3>
-                            <p>CEO & Founder</p>
+                            <h3>Martin Baliey</h3>
+                            <p>SUPERVISOR</p>
                         </span>
                     </div>
                     <div className='inner'>
-                        <span><img src={arrow_up_right} alt="" /></span>
+                        <span><FontAwesomeIcon icon={faQuoteLeftAlt} size="2x" /></span>
                     </div>
                     <div className="vectors v1"></div>
                     <div className="vectors v2"></div>
@@ -50,11 +55,11 @@ const Testimonial = () => {
 
                 <div className="card">
                     <div className="stars">
-                        <img src={leaf} alt="star" />
-                        <img src={leaf} alt="star" />
-                        <img src={leaf} alt="star" />
-                        <img src={leaf} alt="star" />
-                        <img src={leaf} alt="star" />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
                     </div>
                     <div>
                         <p>
@@ -65,14 +70,14 @@ const Testimonial = () => {
                         </p>
                     </div>
                     <div>
-                        <span className='image'><img src={section2} alt="lady pluck's fruit" /></span>
+                        <span className='image'><img src={person1} alt="" /></span>
                         <span className='details'>
-                            <h3>Henry Carol</h3>
-                            <p>CEO & Founder</p>
+                            <h3>Emma Greed</h3>
+                            <p>CUSTOMER</p>
                         </span>
                     </div>
                     <div className='inner'>
-                        <span><img src={arrow_up_right} alt="" /></span>
+                        <span><FontAwesomeIcon icon={faQuoteLeftAlt} size="2x" /></span>
                     </div>
                     <div className="vectors v1"></div>
                     <div className="vectors v2"></div>
@@ -80,11 +85,11 @@ const Testimonial = () => {
 
                 <div className="card">
                     <div className="stars">
-                        <img src={leaf} alt="star" />
-                        <img src={leaf} alt="star" />
-                        <img src={leaf} alt="star" />
-                        <img src={leaf} alt="star" />
-                        <img src={leaf} alt="star" />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
                     </div>
                     <div>
                         <p>
@@ -95,14 +100,14 @@ const Testimonial = () => {
                         </p>
                     </div>
                     <div>
-                        <span className='image'><img src={section2} alt="lady pluck's fruit" /></span>
+                        <span className='image'><img src={person3} alt="lady pluck's fruit" /></span>
                         <span className='details'>
                             <h3>Henry Carol</h3>
                             <p>CEO & Founder</p>
                         </span>
                     </div>
                     <div className='inner'>
-                        <span><img src={arrow_up_right} alt="" /></span>
+                        <span><FontAwesomeIcon icon={faQuoteLeftAlt} size="2x" /></span>
                     </div>
                     <div className="vectors v1"></div>
                     <div className="vectors v2"></div>

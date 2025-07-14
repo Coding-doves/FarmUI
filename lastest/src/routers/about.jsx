@@ -11,6 +11,11 @@ import bg2 from '../assets/bg2.png';
 import leaf from '../assets/leaf.png';
 import arrow_up_right from '../assets/arrow_up_right.png';
 import section2 from '../assets/section2.jpg';
+import farm_tractor from '../assets/farm_tractor.jpg';
+import woman_plant from '../assets/woman_plant.jpg';
+import fertilize from '../assets/fertilize.jpg';
+import fresh_veg from '../assets/fresh_veg.jpg';
+import men_on_farm from '../assets/men_on_farm.jpg';
 
 
 const About = () => {
@@ -31,7 +36,7 @@ const About = () => {
                 <div className='cards'>
                     <div className="card">
                         <div className="big-card">
-                            <span className='image'><img src={section2} alt="lady pluck's fruit" /></span>
+                            <span className='image'><img src={farm_tractor} alt="" /></span>
                             <span className='list'>
                                 <ul>
                                     <li>FERTILIZER</li>
@@ -48,7 +53,7 @@ const About = () => {
 
                     <div className="card">
                         <div className="big-card">
-                            <span className='image'><img src={section2} alt="lady pluck's fruit" /></span>
+                            <span className='image'><img src={woman_plant} alt="" /></span>
                             <span className='list'>
                                 <ul>
                                     <li>FRUITS</li>
@@ -65,7 +70,7 @@ const About = () => {
 
                     <div className="card">
                         <div className="big-card">
-                            <span className='image'><img src={section2} alt="lady pluck's fruit" /></span>
+                            <span className='image'><img src={fertilize} alt="lady pluck's fruit" /></span>
                             <span className='list'>
                                 <ul>
                                     <li>FERTILIZER</li>
@@ -82,7 +87,7 @@ const About = () => {
 
                     <div className="card">
                         <div className="big-card">
-                            <span className='image'><img src={section2} alt="lady pluck's fruit" /></span>
+                            <span className='image'><img src={fresh_veg} alt="lady pluck's fruit" /></span>
                             <span className='list'>
                                 <ul>
                                     <li>FRUITS</li>
@@ -116,7 +121,7 @@ const About = () => {
                     <div className='one'>
                         <h1>Agriculture matters to the <br/>future of development</h1>
                         <div>
-                            <img src={section2} alt="farm" />
+                            <img src={men_on_farm} alt="farm" />
                             <span></span>
                         </div>
                     </div>
